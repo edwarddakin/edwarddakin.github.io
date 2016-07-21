@@ -1,0 +1,5 @@
+* {padding: 0px; margin: 0px;}
+
+body {background: red;}
+
+p {width:100%; position: absolute; bottom: 10%; font-family: comic-sans; text-align: center;}
