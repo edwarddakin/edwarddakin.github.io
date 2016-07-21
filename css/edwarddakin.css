@@ -2,4 +2,8 @@
 
 body {background: red;}
 
+.periscope {width: 100%; position:absolute; text-align: center; top:20%;}
+
+iframe {frameborder:0;}
+
 p {width:100%; position: absolute; bottom: 10%; font-family: comic-sans; text-align: center;}
