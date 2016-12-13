@@ -16,7 +16,7 @@ setInterval(function(){
 },50);
 
 //Swop Drinker
-var drinker = ["img/ED_PINT.png", "img/NF_PINT.png", "img/PINT.png", "img/ED_PINT2.png"];
+var drinker = ["img/PINT.png", "img/ED_PINT.png", "img/NF_PINT.png"];
 var currentDrinker = 0;
 function switchDrinker(){
   if (currentDrinker >= drinker.length) currentDrinker = 0;
