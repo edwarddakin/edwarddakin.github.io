@@ -26,6 +26,7 @@ body {
 }
 
 #drinker {width:300px;}
+.who {border-bottom: 1px dashed black; }
 
 /* Lettering.js
 ================*/
