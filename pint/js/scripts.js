@@ -21,6 +21,6 @@ var currentDrinker = 0;
 function switchDrinker(){
   if (currentDrinker >= drinker.length) currentDrinker = 0;
   $("#drinker").attr('src', drinker[currentDrinker++]);
-  setTimeout(switchDrinker, 1000);
+  setTimeout(switchDrinker, 1400);
 }
 switchDrinker();
