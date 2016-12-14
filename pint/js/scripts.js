@@ -24,3 +24,14 @@ function switchDrinker(){
   setTimeout(switchDrinker, 1400);
 }
 switchDrinker();
+
+//Bounce Play me
+function rumble(){
+  $(".point span").effect( "shake", {times:3}, 2000 );
+};
+$(window).on('load', function() {
+  rumble();
+});
+window.setInterval(function(){
+  rumble();
+}, 5000);
