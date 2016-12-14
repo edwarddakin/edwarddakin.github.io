@@ -28,3 +28,24 @@ body {
 
 #drinker {width:300px;}
 .who {border-bottom: 3px dashed black;}
+
+table {
+  margin: 0 auto;
+  font-size: 0.6em;
+}
+
+table img {
+  width: 30px;
+  vertical-align: middle;
+  margin-top: -6px;
+}
+
+td {
+  vertical-align: middle;
+  width: 33.33%;
+}
+
+td.point {
+  text-align: right;
+  padding-right: 10px;
+}
